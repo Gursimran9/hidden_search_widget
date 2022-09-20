@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+  background-image: linear-gradient(90deg,#7d5fff,#7158e2);
   font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
@@ -15,12 +15,12 @@ body {
   margin: 0;
 }
 
-.search {
+.search{
   position: relative;
   height: 50px;
 }
 
-.search .input {
+.search .input{
   background-color: #fff;
   border: 0;
   font-size: 18px;
@@ -30,7 +30,7 @@ body {
   transition: width 0.3s ease;
 }
 
-.btn {
+.btn{
   background-color: #fff;
   border: 0;
   cursor: pointer;
@@ -43,8 +43,7 @@ body {
   transition: transform 0.3s ease;
 }
 
-.btn:focus,
-.input:focus {
+.btn:focus , .input:focus{
   outline: none;
 }
 
@@ -52,6 +51,6 @@ body {
   width: 200px;
 }
 
-.search.active .btn {
+.search.active .btn{
   transform: translateX(198px);
 }
